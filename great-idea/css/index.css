@@ -65,65 +65,45 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .navigation{
-	text-decoration: none;
-	color: grey;
-	display: flex;
-	flex-flow: row wrap;
-	margin: 3%;
-	font-size: 12.5px;
+	background-color: palegreen;
+	/* display: flex; */
+	/* justify-content: space-around; */
+	border: 1px solid black;
+	width: auto;
+
 	}
-	a:hover{
-		color: blue;
-		border: 1px round blue;
-		transition: 1s;
-	}
-	#navbar{
-		background-color: palegreen;
-		position: fixed;
-		top: 0;
-	}
-	
-	h1 {
-		font-size: 70px;
-	}
-	.GS{
+	.navigation div{
+		display: flex; 
+		width: auto;
+		}	
+	.navigation a{
+		padding: 4% 1% 0% 1%;
 		border: 1px solid black;
+	}
+	.introduction{
+		font-size: 50px;
 		display: flex;
-		padding-left: 2.5%;
-		padding-right: 2.5%;
-		Padding-top: 0.5%;
-		padding-bottom: 0.5%;
 	}
-	
-	.middle-img{
-		padding-left: 4%;
-		margin: 2% 0% 2% 0%;
-	}
-	.intro{
-		display: flex;
-		margin: 2% 7% 1% 0.5%;
-	}
-	.first{
-		display: flex;
-		width: 30%;
-		margin-top: 10%;
-	}
-	.circle{
-		margin: 10% 0% 10% 23%;
+	.box{
+		border: 1px solid black;
+		padding: 1% 2% 0% 2%;
+		font-size: 20px;
 	}
 	.copyright{
 		text-align: center;
 		margin: 10%
 	}
-	.contact{
-		margin-top: 3%;
-	}
-	.whole{
-		margin-left: 3%;
-		margin-top: 30px;
+	body{
 		font-family: 'IM Fell Great Primer SC', serif;
 		background-color: aliceblue;
-	
+		margin: auto;
+		width: 880px;
+	}
+	.numone{
+		display: flex;
+	}
+	.numtwo{
+		display: flex;
 	}
 	hr{
 		display: flex;
