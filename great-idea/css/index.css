@@ -97,39 +97,40 @@ h1, h2, h3, h4, h5 {
 	.introduction{
 		display: flex;
 	}
-	.IOD{
-		display: flex;
-		flex-direction: column;
-		font-size: 75px;
-		justify-content: center;
-		text-align: center;
-	}
+	
 	.box{
 		border: 1px solid black;
 		display: flex;
+		flex-direction: column;
 		padding: 2% 7% 2% 7%;
+		width: 45%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		background-color: gainsboro;
 	}
-	.circle{
-		margin-left: 123px;
-		margin-top: 50px;
-		margin-bottom: 100px;
+	.main{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-top: 10px;
+		
 	}
-	.middle-img{
-		margin: 40px 10px 40px 10px;
-	}
+	
 	.copyright{
 		text-align: center;
 		margin: 10%
 	}
 	body{
-		font-family: 'IM Fell Great Primer SC', serif;
 		background-color: aliceblue;
 		margin: auto;
 		width: 880px;
 	}
 	.numone{
 		display: flex;
+		flex-direction: column;
 		margin-top: 25px;
+		margin-bottom: 20px;
 		justify-content: space-between;
 	}
 	.numtwo{
@@ -158,3 +159,31 @@ h1, h2, h3, h4, h5 {
 		border-style: solid;
 		border-width: 1px;
 	}
+	h1{
+		font-size: 25px;
+	}
+	.numthree{
+		display: flex;
+		flex-direction: column;
+		margin-top: 10px;
+	}
+	ul{
+		margin-top: 15px;
+		display: flex;
+		flex-direction: column;
+		list-style-type: square;
+	}
+	.list li{
+		margin: 5px;
+	}
+	.button{
+		border: 1px solid black;
+		border-radius: 5px;
+		display: flex;
+		flex-direction: column;
+		padding: 2% 7% 2% 7%;
+		width: 45%;
+		margin-top: 10px;
+		background-color: white;
+	}
+	
