@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-nav a{
+.navigation{
 	text-decoration: none;
 	color: grey;
 	display: flex;
@@ -88,7 +88,7 @@ nav a{
 	}
 	.GS{
 		border: 1px solid black;
-		display: inline-block;
+		display: flex;
 		padding-left: 2.5%;
 		padding-right: 2.5%;
 		Padding-top: 0.5%;
